@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #666;
+  height: 100%;
+}
+
+.pimg1 {
+  background-image: url(images/image1.png);
+  height: 100vh;
+}
+
+.pimg2 {
+  background-image: url(images/image2.png);
+  height: 400px;
+}
+
+.pimg3 {
+  background-image: url(images/image3.png);
+  height: 400px;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.text_container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+.textSection {
+  background-color: grey;
+  text-align: center;
+}
+.bgLight {
+  background-color: white;
+  color: grey;
+}
+.bgDark {
+  background-color: black;
+  color: white;
+}
+.textSection h2 {
+  padding-top: 50px;;
+  font-size: 50px;
+  font-weight: 400;
+}
+.textSection p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  padding: 30px;
+  text-align: justify;
+}
